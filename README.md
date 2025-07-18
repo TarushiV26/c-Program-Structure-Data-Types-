@@ -1,4 +1,6 @@
 # c-Program-Structure-Data-Types-
+## Description
+This simple C++ console program demonstrates the use of basic data types by allowing the user to input values of different types. It then outputs the entered values along with the memory size (in bytes) occupied by each variable.
 # C++ Data Types Overview
 
 ## Primitive Built-in Types
