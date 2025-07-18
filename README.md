@@ -31,7 +31,7 @@ This simple C++ console program demonstrates the use of basic data types by allo
 | unsigned long int   | 8 bytes       | 0 to 18,446,744,073,709,551,615                         |
 | long long int       | 8 bytes       | -(2^63) to (2^63)-1                                     |
 | unsigned long long int | 8 bytes     | 0 to 18,446,744,073,709,551,615                         |
-| float               | 4 bytes       |                                                          |
-| double              | 8 bytes       |                                                          |
-| long double         | 12 bytes      |                                                          |
+| float               | 4 bytes       | ±1.17549e-38 to ±3.40282e+38 (IEEE 754)                  |
+| double              | 8 bytes       |±2.22507e-308 to ±1.79769e+308 (IEEE 754)                 |
+| long double         | 12 bytes      |Usually wider than double, e.g., ±3.3621e-4932 to ±1.18973e+4932 (on some systems)|
 | wchar_t             | 2 or 4 bytes  | 1 wide character                                        |
